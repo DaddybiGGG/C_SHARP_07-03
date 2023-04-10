@@ -3,3 +3,17 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
+void Pow(int num)
+{
+    int i = 1;
+    while (i <= num)
+    {
+        Console.WriteLine(Math.Pow(i, 3));
+        i++;
+    }
+
+
+}
+
+int number = int.Parse(Console.ReadLine()!);
+Pow(number);
