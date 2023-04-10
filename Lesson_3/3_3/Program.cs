@@ -3,15 +3,15 @@
 
 void Pow(int num)
 {
-int i = 1;
-while (i<=num)
-{
-Console.WriteLine(Math.Pow(i,2));
-i++;
-}
+    int i = 1;
+    while (i <= num)
+    {
+        Console.WriteLine(Math.Pow(i, 2));
+        i++;
+    }
 
 
 }
 
-int number =int.Parse( Console.ReadLine()!);
+int number = int.Parse(Console.ReadLine()!);
 Pow(number);
