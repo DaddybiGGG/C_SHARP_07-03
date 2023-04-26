@@ -4,13 +4,3 @@
 // 8 -> 2, 4, 6, 8
 
 
-Console.WriteLine("Write a number: ");
-int num = int.Parse(Console.ReadLine()!);
-
-count = 1;
-
-if (num < count)
-{
-    Console.Write(count);
-    count++;
-}
